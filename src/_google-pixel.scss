@@ -10,110 +10,110 @@ $device-blue-dark: darken($device-blue, 15%);
 $device-blue-panel: #f7f7f8;
 
 .device-google-pixel {
-  height: 744px;
-  width: 360px;
+  height: 46.5em;
+  width: 22.5em;
 
   .device-frame {
     background: $device-silver-panel;
-    border-radius: 54px;
-    box-shadow: inset 0 0 0 2px $device-silver-dark, inset 0 0 0 6px $device-silver, inset 0 0 0 10px lighten($device-silver-panel, 10%);
-    height: 744px;
-    padding: 82px 18px 86px 18px;
-    width: 360px;
+    border-radius: 3.375em;
+    box-shadow: inset 0 0 0 0.125em $device-silver-dark, inset 0 0 0 0.375em $device-silver, inset 0 0 0 0.625em lighten($device-silver-panel, 10%);
+    height: 46.5em;
+    padding: 5.125em 1.125em 5.375em 1.125em;
+    width: 22.5em;
   }
 
   // 1920-by-1080-pixel resolution
   .device-content {
-    border: 2px solid #222;
-    border-radius: 2px;
-    height: 576px;
-    width: 324px;
+    border: 0.125em solid #222;
+    border-radius: 0.125em;
+    height: 36em;
+    width: 20.25em;
   }
 
   .device-stripe {
-    border-top: 6px solid rgba(#333, .15);
+    border-top: 0.375em solid rgba(#333, .15);
     bottom: 0;
-    left: 254px;
+    left: 15.875em;
     position: absolute;
     top: 0;
-    width: 8px;
+    width: 0.5em;
 
     &::after,
     &::before {
       border: solid rgba(#333, .15);
-      border-width: 0 6px;
+      border-width: 0 0.375em;
       content: "";
-      height: 10px;
-      left: -254px;
+      height: 0.625em;
+      left: -15.875em;
       position: absolute;
-      width: 360px;
+      width: 22.5em;
       z-index: 9;
     }
     &::after {
-      top: 60px;
+      top: 3.75em;
     }
     &::before {
-      bottom: 46px;
+      bottom: 2.875em;
     }
   }
 
   .device-sensors {
     background: #ddd;
-    border-radius: 2.5px;
-    height: 5px;
+    border-radius: 0.1563em;
+    height: 0.3125em;
     left: 50%;
-    margin-left: -39px;
-    margin-top: -2.5px;
+    margin-left: -2.4375em;
+    margin-top: -0.1563em;
     position: absolute;
-    top: 41px;
-    width: 78px;
+    top: 2.5625em;
+    width: 4.875em;
 
     &::after,
     &::before {
       background: #333;
-      border-radius: 6px;
+      border-radius: 0.375em;
       content: "";
       position: absolute;
     }
     &::after {
-      height: 12px;
+      height: 0.75em;
       left: 50%;
-      margin-left: -14px;
-      top: 21.5px;
-      width: 28px;
+      margin-left: -0.875em;
+      top: 1.3438em;
+      width: 1.75em;
     }
     &::before {
-      height: 10px;
-      left: -81px;
-      margin-top: -5px;
+      height: 0.625em;
+      left: -5.0625em;
+      margin-top: -0.3125em;
       top: 50%;
-      width: 10px;
+      width: 0.625em;
     }
   }
 
   .device-btns {
     background: $device-silver-dark;
-    height: 102px;
+    height: 6.375em;
     position: absolute;
-    right: -2px;
-    top: 298px;
-    width: 3px;
+    right: -0.125em;
+    top: 18.625em;
+    width: 0.1875em;
   }
 
   .device-power {
     background: $device-silver-dark;
-    height: 50px;
+    height: 3.125em;
     position: absolute;
-    right: -2px;
-    top: 184px;
-    width: 3px;
+    right: -0.125em;
+    top: 11.5em;
+    width: 0.1875em;
   }
 
   // Black edition 
   &.device-black {
     .device-frame {
       background: $device-black-panel;
-      box-shadow: inset 0 0 0 2px $device-black-dark, inset 0 0 0 6px $device-black, inset 0 0 0 10px lighten($device-black-panel, 10%);
+      box-shadow: inset 0 0 0 0.125em $device-black-dark, inset 0 0 0 0.375em $device-black, inset 0 0 0 0.625em lighten($device-black-panel, 10%);
     }
 
     .device-stripe {
@@ -148,7 +148,7 @@ $device-blue-panel: #f7f7f8;
   // Blue edition
   &.device-blue {
     .device-frame {
-      box-shadow: inset 0 0 0 2px $device-blue-dark, inset 0 0 0 6px $device-blue, inset 0 0 0 10px lighten($device-blue-panel, 10%);
+      box-shadow: inset 0 0 0 0.125em $device-blue-dark, inset 0 0 0 0.375em $device-blue, inset 0 0 0 0.625em lighten($device-blue-panel, 10%);
     }
 
     .device-btns {

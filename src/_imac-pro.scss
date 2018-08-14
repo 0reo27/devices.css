@@ -4,50 +4,50 @@ $device-spacegray-dark: darken($device-spacegray, 15%);
 $device-spacegray-panel: #0d0d0d;
 
 .device-imac-pro {
-  height: 484px;
-  width: 624px;
+  height: 30.25em;
+  width: 39em;
 
   .device-frame {
     background: $device-spacegray-panel;
-    border-radius: 18px;
-    box-shadow: inset 0 0 0 2px darken($device-spacegray-panel, 2%);
-    height: 428px;
-    padding: 24px 24px 80px 24px;
+    border-radius: 1.125em;
+    box-shadow: inset 0 0 0 0.125em darken($device-spacegray-panel, 2%);
+    height: 26.75em;
+    padding: 1.5em 1.5em 5em 1.5em;
     position: relative;
-    width: 624px;
+    width: 39em;
 
     &::after {
       background: $device-spacegray-dark;
-      border-radius: 0 0 18px 18px;
-      bottom: 2px;
+      border-radius: 0 0 1.125em 1.125em;
+      bottom: 0.125em;
       content: "";
-      height: 54px;
-      left: 2px;
+      height: 3.375em;
+      left: 0.125em;
       position: absolute;
-      width: 620px;
+      width: 38.75em;
     }
     &::before {
-      bottom: 15px;
+      bottom: 0.9375em;
       color: $device-spacegray-panel;
       content: "";
-      font-size: 24px;
-      height: 24px;
+      font-size: 1.5em;
+      height: 1.5em;
       left: 50%;
-      line-height: 24px;
-      margin-left: -100px;
+      line-height: 1.5em;
+      margin-left: -6.25em;
       position: absolute;
       text-align: center;
-      width: 200px;
+      width: 12.5em;
       z-index: 9;
     }
   }
 
   // 5120‑by‑2880-pixel resolution
   .device-content {
-    border: 2px solid lighten($device-spacegray-panel, 2%);
-    border-radius: 2px;
-    height: 324px;
-    width: 576px;
+    border: 0.125em solid lighten($device-spacegray-panel, 2%);
+    border-radius: 0.125em;
+    height: 20.25em;
+    width: 36em;
   }
 
   .device-power {
@@ -57,20 +57,20 @@ $device-spacegray-panel: #0d0d0d;
     }
     &::after {
       background: darken($device-spacegray-dark, 5%);
-      border-radius: 2px;
-      height: 6px;
+      border-radius: 0.125em;
+      height: 0.375em;
       margin: 0 auto;
       position: relative;
-      width: 180px;
+      width: 11.25em;
     }
     &::before {
       border: solid transparent;
       border-bottom-color: lighten($device-spacegray-panel, 15%);
-      border-width: 0 8px 50px 8px;
-      height: 50px;
+      border-width: 0 0.5em 3.125em 0.5em;
+      height: 3.125em;
       margin: 0 auto;
       position: relative;
-      width: 130px;
+      width: 8.125em;
     }
   }
 }

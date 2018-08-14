@@ -7,62 +7,62 @@ $device-spacegray-dark: darken($device-spacegray, 5%);
 $device-spacegray-panel: #0d0d0d;
 
 .device-macbook-pro {
-  height: 444px;
-  width: 740px;
+  height: 27.75em;
+  width: 46.25em;
 
   .device-frame {
     background: $device-silver-panel;
-    border-radius: 20px;
-    box-shadow: inset 0 0 0 2px $device-silver-dark;
-    height: 428px;
+    border-radius: 1.25em;
+    box-shadow: inset 0 0 0 0.125em $device-silver-dark;
+    height: 26.75em;
     margin: 0 auto;
-    padding: 29px 19px 39px 19px;
+    padding: 1.8125em 1.1875em 2.4375em 1.1875em;
     position: relative;
-    width: 614px;
+    width: 38.375em;
 
     &::after {
       background: lighten($device-silver-panel, 10%);
-      border-radius: 0 0 20px 20px;
-      bottom: 2px;
+      border-radius: 0 0 1.25em 1.25em;
+      bottom: 0.125em;
       content: "";
-      height: 26px;
-      left: 2px;
+      height: 1.625em;
+      left: 0.125em;
       position: absolute;
-      width: 610px;
+      width: 38.125em;
     }
     &::before {
-      bottom: 10px;
+      bottom: 0.625em;
       color: $device-silver-dark;
       content: "MacBook Pro";
-      font-size: 12px;
-      height: 16px;
+      font-size: 0.75em;
+      height: 1em;
       left: 50%;
-      line-height: 16px;
-      margin-left: -100px;
+      line-height: 1em;
+      margin-left: -6.25em;
       position: absolute;
       text-align: center;
-      width: 200px;
+      width: 12.5em;
       z-index: 1;
     }
   }
 
   // 1680-by-1050-pixel resolution
   .device-content {
-    border: 2px solid lighten($device-silver-panel, 2%);
-    border-radius: 2px;
-    height: 360px;
-    width: 576px;
+    border: 0.125em solid lighten($device-silver-panel, 2%);
+    border-radius: 0.125em;
+    height: 22.5em;
+    width: 36em;
   }
 
   .device-power {
     background: $device-silver;
     border: solid darken($device-silver, 5%);
-    border-radius: 2px 2px 0 0;
-    border-width: 2px 4px 0 4px;
-    height: 14px;
-    margin-top: -10px;
+    border-radius: 0.125em 0.125em 0 0;
+    border-width: 0.125em 0.25em 0 0.25em;
+    height: 0.875em;
+    margin-top: -0.625em;
     position: relative;
-    width: 740px;
+    width: 46.25em;
     z-index: 9;
     
     &::after,
@@ -72,30 +72,30 @@ $device-spacegray-panel: #0d0d0d;
     }
     &::after {
       background: lighten($device-silver-dark, 5%);
-      border-radius: 0 0 10px 10px;
-      box-shadow: inset 0 0 4px 2px darken($device-silver-dark, 5%);
-      height: 10px;
+      border-radius: 0 0 0.625em 0.625em;
+      box-shadow: inset 0 0 0.25em 0.125em darken($device-silver-dark, 5%);
+      height: 0.625em;
       left: 50%;
-      margin-left: -60px;
-      top: -2px;
-      width: 120px;
+      margin-left: -3.75em;
+      top: -0.125em;
+      width: 7.5em;
     }
     &::before {
       background: darken($device-silver-dark, 15%);
-      border-radius: 0 0 180px 180px/ 0 0 12px 12px;
-      box-shadow: inset 0 -2px 6px 0 darken($device-silver-dark, 50%);
-      height: 12px;
-      left: -4px;
+      border-radius: 0 0 11.25em 11.25em/ 0 0 0.75em 0.75em;
+      box-shadow: inset 0 -0.125em 0.375em 0 darken($device-silver-dark, 50%);
+      height: 0.75em;
+      left: -0.25em;
       margin: 0 auto;
-      top: 10px;
-      width: 740px;
+      top: 0.625em;
+      width: 46.25em;
     }
   }
 
   // Space Gray edition
   &.device-spacegray {
     .device-frame {
-      box-shadow: inset 0 0 0 2px $device-spacegray-dark;
+      box-shadow: inset 0 0 0 0.125em $device-spacegray-dark;
     }
 
     .device-power {
@@ -104,11 +104,11 @@ $device-spacegray-panel: #0d0d0d;
 
       &::after {
         background: lighten($device-spacegray-dark, 5%);
-        box-shadow: inset 0 0 4px 2px darken($device-spacegray-dark, 5%);
+        box-shadow: inset 0 0 0.25em 0.125em darken($device-spacegray-dark, 5%);
       }
       &::before {
         background: darken($device-spacegray-dark, 15%);
-        box-shadow: inset 0 -2px 6px 0 darken($device-spacegray-dark, 50%);
+        box-shadow: inset 0 -0.125em 0.375em 0 darken($device-spacegray-dark, 50%);
       }
     }
   }

@@ -4,79 +4,79 @@ $device-black-dark: darken($device-black, 20%);
 $device-black-panel: #121212;
 
 .device-google-pixel-2-xl {
-  height: 832px;
-  width: 404px;
+  height: 52em;
+  width: 25.25em;
 
   .device-frame {
     background: $device-black-panel;
-    border-radius: 36px;
-    box-shadow: inset 0 0 0 2px $device-black, inset 0 0 0 7px $device-black-dark;
-    height: 832px;
-    padding: 56px 22px;
-    width: 404px;
+    border-radius: 2.25em;
+    box-shadow: inset 0 0 0 0.125em $device-black, inset 0 0 0 0.4375em $device-black-dark;
+    height: 52em;
+    padding: 3.5em 1.375em;
+    width: 25.25em;
   }
 
   // 2880-by-1440-pixel resolution
   .device-content {
-    border-radius: 27px;
-    height: 720px;
-    width: 360px;
+    border-radius: 1.6875em;
+    height: 45em;
+    width: 22.5em;
   }
 
   .device-header {
-    height: 832px;
+    height: 52em;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -9.375em;
     position: absolute;
     top: 0;
-    width: 300px;
+    width: 18.75em;
 
     &::after,
     &::before {
       background: #333;
-      border-radius: 3px;
+      border-radius: 0.1875em;
       content: "";
-      height: 6px;
+      height: 0.375em;
       left: 50%;
-      margin-left: -73px;
-      margin-top: -3px;
+      margin-left: -4.5625em;
+      margin-top: -0.1875em;
       position: absolute;
-      width: 146px;
+      width: 9.125em;
     }
     &::after {
-      top: 24px;
+      top: 1.5em;
     }
     &::before {
-      bottom: 28px;
+      bottom: 1.75em;
     }
   }
 
   .device-sensors {
     background: #333;
-    border-radius: 7px;
-    height: 14px;
-    left: 54px;
-    margin-top: -7px;
+    border-radius: 0.4375em;
+    height: 0.875em;
+    left: 3.375em;
+    margin-top: -0.4375em;
     position: absolute;
-    top: 36px;
-    width: 14px;
+    top: 2.25em;
+    width: 0.875em;
   }
 
   .device-btns {
     background: $device-black;
-    height: 102px;
+    height: 6.375em;
     position: absolute;
-    right: -3px;
-    top: 306px;
-    width: 3px;
+    right: -0.1875em;
+    top: 19.125em;
+    width: 0.1875em;
   }
 
   .device-power {
     background: $device-black;
-    height: 58px;
+    height: 3.625em;
     position: absolute;
-    right: -3px;
-    top: 194px;
-    width: 3px;
+    right: -0.1875em;
+    top: 12.125em;
+    width: 0.1875em;
   }
 }
