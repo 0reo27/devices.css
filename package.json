@@ -24,11 +24,8 @@
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "^3.7.0",
     "gulp-csscomb": "^3.0.8",
-    "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "latest",
-    "postcss-pxtorem": "^4.0.1"
+    "gulp-sass": "latest"
   },
   "browserslist": [
     "last 4 Chrome versions",
